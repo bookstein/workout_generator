@@ -1,0 +1,23 @@
+{
+  "name": "fitness_app",
+  "version": "0.0.1",
+  "description": "A full-body workout generator and tracker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "fitness",
+    "react"
+  ],
+  "author": "Emily Bookstein",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "knex": "^0.12.6",
+    "sqlite3": "^3.1.8"
+  }
+}
