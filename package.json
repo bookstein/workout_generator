@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "npm test"
+    "test": "tap test/*.js"
   },
   "keywords": [
     "express",
@@ -16,8 +16,13 @@
   "author": "Emily Bookstein",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "knex": "^0.12.6",
     "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "supertest": "^2.0.1",
+    "tap": "^9.0.1"
   }
 }
